@@ -1,0 +1,43 @@
+.entertainer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .entertainer-grid-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    background-color: #0d6efd;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .entertainer-grid-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+  }
+  
+  .entertainer-grid-row:nth-child(even) {
+    background-color: #727272;
+  }
+  
+  .entertainer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem; /* 💡 this adds spacing on both sides */
+  }
+
+  .entertainer-wrapper {
+    width: 80vw;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  
+  

@@ -1,0 +1,17 @@
+h2 {
+  font-weight: bold;
+  color: #eee;
+  margin-top: 1rem;
+}
+
+.entertainers-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.entertainers-page .text-center button {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+}
+
